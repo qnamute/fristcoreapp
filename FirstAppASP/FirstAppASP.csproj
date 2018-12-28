@@ -18,4 +18,12 @@
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.4" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\FirstAppASP.Application\FirstAppASP.Application.csproj" />
+    <ProjectReference Include="..\FirstAppASP.Data.EF\FirstAppASP.Data.EF.csproj" />
+    <ProjectReference Include="..\FirstAppASP.Data\FirstAppASP.Data.csproj" />
+    <ProjectReference Include="..\FirstAppASP.Infrastructure\FirstAppASP.Infrastructure.csproj" />
+    <ProjectReference Include="..\FirstAppASP.Utilities\FirstAppASP.Utilities.csproj" />
+  </ItemGroup>
+
 </Project>
